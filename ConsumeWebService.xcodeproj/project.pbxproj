@@ -14,6 +14,7 @@
 		B82D5BF21DEE2C3F0003876A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82D5BF01DEE2C3F0003876A /* LaunchScreen.storyboard */; };
 		B82D5BFD1DEE2C3F0003876A /* ConsumeWebServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D5BFC1DEE2C3F0003876A /* ConsumeWebServiceTests.swift */; };
 		B82D5C081DEE2C3F0003876A /* ConsumeWebServiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D5C071DEE2C3F0003876A /* ConsumeWebServiceUITests.swift */; };
+		B82D5C1B1DEE6A300003876A /* sol.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B82D5C1A1DEE6A300003876A /* sol.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B82D5C031DEE2C3F0003876A /* ConsumeWebServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsumeWebServiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82D5C071DEE2C3F0003876A /* ConsumeWebServiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumeWebServiceUITests.swift; sourceTree = "<group>"; };
 		B82D5C091DEE2C3F0003876A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B82D5C1A1DEE6A300003876A /* sol.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sol.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		B82D5BE61DEE2C3F0003876A /* ConsumeWebService */ = {
 			isa = PBXGroup;
 			children = (
+				B82D5C181DEE69520003876A /* Supporting Files */,
 				B82D5BE71DEE2C3F0003876A /* AppDelegate.swift */,
 				B82D5BE91DEE2C3F0003876A /* ViewController.swift */,
 				B82D5BEB1DEE2C3F0003876A /* Main.storyboard */,
@@ -123,6 +126,22 @@
 				B82D5C091DEE2C3F0003876A /* Info.plist */,
 			);
 			path = ConsumeWebServiceUITests;
+			sourceTree = "<group>";
+		};
+		B82D5C181DEE69520003876A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B82D5C191DEE695D0003876A /* img */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B82D5C191DEE695D0003876A /* img */ = {
+			isa = PBXGroup;
+			children = (
+				B82D5C1A1DEE6A300003876A /* sol.jpeg */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +253,7 @@
 			files = (
 				B82D5BF21DEE2C3F0003876A /* LaunchScreen.storyboard in Resources */,
 				B82D5BEF1DEE2C3F0003876A /* Assets.xcassets in Resources */,
+				B82D5C1B1DEE6A300003876A /* sol.jpeg in Resources */,
 				B82D5BED1DEE2C3F0003876A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ConsumeWebService/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = ConsumeWebService/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jdebu.ConsumeWebService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
